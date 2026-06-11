@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Drawing.Text;
+using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.ExceptionHandling;
 
@@ -35,9 +39,9 @@ namespace HealthaxixWebAPI.Handlers
             public Task<HttpResponseMessage> ExecuteAsync(CancellationToken cancellationToken)
             {
                 var response = Request.CreateErrorResponse(StatusCode, new HttpError(Message));
-                return Task.FromResult(response);
+            return Task.FromResult(response);
             }
         }
-
+        
     }
 }

@@ -1,8 +1,8 @@
-using Healthaxis2.Areas.HelpPage.ModelDescriptions;
-using Healthaxis2.Areas.HelpPage.Models;
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
+using Healthaxis2.Areas.HelpPage.ModelDescriptions;
+using Healthaxis2.Areas.HelpPage.Models;
 
 namespace Healthaxis2.Areas.HelpPage.Controllers
 {
